@@ -13,16 +13,16 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
   mongodb,
   git,
-  figma,
   docker,
+  python,
+  tensorflow,
+  pytorch,
+  golang,
+  bash,
+  githubActions,
+  sqlite,
   meta,
   starbucks,
   tesla,
@@ -30,7 +30,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -50,31 +49,27 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Backend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Computer Vision Specialist",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "MLOps Engineer",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
@@ -85,40 +80,40 @@ const technologies: TTechnology[] = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Go",
+    icon: golang,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Bash",
+    icon: bash,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "TensorFlow",
+    icon: tensorflow,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "GitHub Actions",
+    icon: githubActions,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "SQLite",
+    icon: sqlite,
   },
 ];
 

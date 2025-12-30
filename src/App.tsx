@@ -10,6 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import CursorEffect from "./components/atoms/CursorEffect";
 import { useEffect } from "react";
 import { config } from "./constants/config";
 
@@ -22,6 +23,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <CursorEffect />
       <div className="bg-primary relative z-0">
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />

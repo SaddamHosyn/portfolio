@@ -11,6 +11,26 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  cursor: none !important; /* Hide default cursor forcefully */
+}
+
+/* Force cursor hidden for ALL elements */
+*, *::before, *::after,
+a, button, input, textarea, select, [role="button"], 
+a *, button *, svg, img {
+  cursor: none !important;
+}
+
+/* Particle animation */
+@keyframes particleFloat {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), var(--dy)) scale(0);
+    opacity: 0;
+  }
 }
 
 .hash-span {
